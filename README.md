@@ -13,6 +13,11 @@ Il s'agit de bouts de scripts que j'ai commencé à partager avec les élèves p
 Je pense qu'ils pourraient être réutilisés pour d'autres cours/formations ou pour s'auto-former. Il se trouve qu'ils me permettent aussi d'apprendre JavaScript en creusant chaque ligne pour pouvoir la commenter.
 
 
+## Pré-requis
+
+Les élèves doivent connaître HTML/CSS avant d'aborder le cours, ils peuvent avoir joué/bidouillé avec jQuery.
+
+
 ## Contraintes
 
 * rester simple et compréhensible, l'angle d'approche n'est pas du tout la performance et encore moins l'esthétique
