@@ -25,7 +25,7 @@ pour autant (et donc éviter la génération d'erreurs).
 */
 (function (win, element) {
     "use strict";
-    var helloWorld2 = 'Hello World!';
+    var helloWorld2 = 'Hello World2!';
     function handleClick(event) {
         console.log(helloWorld2);
         event.preventDefault();

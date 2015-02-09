@@ -27,4 +27,5 @@ function modifyClicked(event) {
 }
 mainElement.addEventListener('dblclick',
                              modifyClicked);
-/* Comment retirer l'ajout au `hover` ? */
+/* Comment ajouter au `hover` ? Retirer l'ajout
+lorsqu'on enlève la souris de l'élement ? */

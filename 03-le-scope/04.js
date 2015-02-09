@@ -53,8 +53,11 @@ var linksCounter = counter();
                     linksCounter.getCount());
         event.preventDefault();
     }
-    for (var i = 0, len = links.length; i < len; i++) {
+    for (var i=0, len=links.length; i < len; i++) {
         links[i].addEventListener('click',
                                   countClicklinks);
     }
 }(this, document.getElementsByTagName('a')));
+
+/* Comment ne faire qu'une seule IIFE en vérifiant
+le `nodeName` ? */

@@ -24,6 +24,12 @@ classiques (comme jQuery). */
 var pElements = document.querySelectorAll('#main p');
 console.log(pElements);
 
+
+/* Il est possible d'utiliser des sélecteurs plus
+complexes comme `nth-child`. */
+document.querySelector('p:nth-child(1)');
+
+
 /* Essayez d'accéder au paragraphe en utilisant sa
 `class`. Son `id`. Pourquoi vaut-il mieux utiliser
 `getElementById` ? */
