@@ -14,6 +14,16 @@ mainElement.addEventListener('dblclick',
 /* Comment afficher un message plus explicite ?
 (introduction à `inner/outerHTML`) */
 
+/* Comment retirer les espaces ? */
+function trim(string) {
+    /* Détection des fonctionnalités disponibles dans
+    le navigateur. */
+    if (string.trim) {
+        return string.trim();
+    }
+    return string.replace(/^\s+|\s+$/g, '');
+}
+
 /* Il est courant de devoir récupérer la classe d'un
 élement parent de celui qui est cliqué. */
 var linkElement = document.getElementById('link');

@@ -32,3 +32,12 @@ Les élèves doivent connaître HTML/CSS avant d'aborder le cours, ils peuvent a
 ## Participer
 
 Toutes les contributions sont les bienvenues et passent par des *pulls-requests/issues* pour garder une trace de la discussion. Veuillez les faire en français pour pouvoir impliquer des apprenants plus facilement.
+
+
+## Ressources
+
+* [Liens du billet associé au dépôt](https://larlet.fr/david/blog/2015/cours-iut-comprendre-javascript/)
+* [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+* [A drip of JavaScript](http://adripofjavascript.com/)
+* [You Don't Need jQuery](http://blog.garstasio.com/you-dont-need-jquery/)
+
