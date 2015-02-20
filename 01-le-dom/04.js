@@ -30,6 +30,3 @@ for (var i=0, len=pElements.length; i < len; i++) {
 /* Comment afficher le contenu du paragraphe avant de
 le supprimer ? Comment pourrait-on faire pour le cacher
 uniquement ? */
-
-/* Comment faire pour pouvoir utiliser `forEach` ?
-(introduction à `[].slice.call(notAnArray)`). */
