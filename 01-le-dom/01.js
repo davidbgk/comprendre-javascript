@@ -1,6 +1,9 @@
 /* Le DOM est l'arbre XML qui représente votre page
 web, vous pouvez l'afficher dans votre navigateur
-via clic-droit > Afficher la source. */
+via clic-droit > Afficher la source. Attention, une
+fois modifié en JavaScript il est plus pertinent de
+l'analyser via l'inspecteur d'éléments car il est
+dynamique. */
 
 /* Il est possible d'accéder aux différents éléments
 en JavaScript de plusieurs manières : */
