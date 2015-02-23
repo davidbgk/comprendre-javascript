@@ -36,3 +36,23 @@ pour autant (et donc éviter la génération d'erreurs).
 /* Que se passe-t-il lorsque l'on enlève le mot-clé
 `var` de la définition d'`helloWorld`, qu'en est-il
 pour `helloWorld2` ? */
+
+
+/* Attention à la création de fonctions au sein des
+boucles, même au sein d'une IIFE ! */
+(function(target) {
+    var ul = document.createElement('ul');
+    for (var i = 0; i < 3; i++) {
+        var li = document.createElement('li');
+        li.innerHTML = 'link ' + i;
+        function displayI(event) {
+            alert(i);
+            event.preventDefault();
+        }
+        li.addEventListener('click', displayI);
+        ul.appendChild(li);
+    }
+    target.appendChild(ul);
+})(document.body);
+/* Qu'affiche systématiquement le `alert()` ? Comment
+corriger ce problème ? */
