@@ -16,9 +16,9 @@ var exampleVariable = 'Hello World!';
 `function`. Elle est descriptive et commentée en
 anglais. Il faut l'instancier pour qu'elle soit
 exécutée. */
-function displayThing(thingToDisplay) {
+function logToConsole(thingToDisplayInConsole) {
     // Print the thing in the browser console.
-    console.log(thingToDisplay);
+    console.log(thingToDisplayInConsole);
 }
 
 
@@ -28,8 +28,8 @@ console.log('This is displayed in the console.');
 
 
 /* Nous pouvons maintenant utiliser notre fonction. */
-displayThing('A thing.');
+logToConsole('A thing.');
 
 
 /* Que va faire cette ligne une fois décommentée ? */
-// displayThing(exampleVariable);
+// logToConsole(exampleVariable);

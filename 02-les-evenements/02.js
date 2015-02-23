@@ -11,16 +11,16 @@ contentEl.addEventListener('dblclick', callConsole);
 /* Vous pouvez attacher plusieurs réactions au même
 évènement. */
 var linkEl = document.getElementById('link');
-function callConsoleOnce(event) {
+function callConsoleFirst(event) {
     console.log('You clicked the "#link" element.');
     event.preventDefault();
 }
-function callConsoleAgain(event) {
+function callConsoleSecond(event) {
     console.log('"#link" element clicked again.');
     event.preventDefault();
 }
-linkEl.addEventListener('click', callConsoleOnce);
-linkEl.addEventListener('click', callConsoleAgain);
+linkEl.addEventListener('click', callConsoleFirst);
+linkEl.addEventListener('click', callConsoleSecond);
 
 /* Essayez d'inverser l'ordre d'appel de ces fonctions.
 */
