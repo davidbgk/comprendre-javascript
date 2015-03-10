@@ -40,4 +40,6 @@ Toutes les contributions sont les bienvenues et passent par des *pulls-requests/
 * [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 * [A drip of JavaScript](http://adripofjavascript.com/)
 * [You Don't Need jQuery](http://blog.garstasio.com/you-dont-need-jquery/)
+* [You might not need jQuery](http://youmightnotneedjquery.com/)
+* [You Don't Know JS](https://github.com/getify/You-Dont-Know-JS/)
 
